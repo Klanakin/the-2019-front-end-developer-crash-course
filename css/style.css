@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
+body {
+    background-color: #222831;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+p, blockquote {
+    font-size: .9em;
+    line-height: 1.6em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.blue-container {
+    width: 100%;
+    background-color: #00c2ff;
+    color: whitesmoke;
+    margin-top: 15%;
+    padding: 4em 0 2em;
+    border-top-left-radius: 40px;
+    transform: skewY(-2deg);
+}
+
+.blue-container:after {
+    border-radius: 50%;
+    content: "";
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    position: absolute;
+    top: -80px;
+    right: 0;
+    z-index: -1;
+}
+
+.blue-container:before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color: #00c2ff;
+    position: absolute;
+    top: -39px;
+    right: 0;
+    z-index: -2;
+}
+
+.blue-container .container {
+    transform: skewY(2deg);
+}
+
+.container {
+    text-align: center;
+    padding: .8em 1.2em;
+}
+
+.hide-mobile {
+    display: none;
+}
+
+.logo {
+    width: 130px;
+}
+
+.menu {
+    width: 25px;
+    margin-top: 45%;
+}
+
+.server {
+    width: 70%;
+    margin: 2em auto 2em 25%;
+}
+
+h1, subhead {
+    position: relative;
+    z-index: 3;
+}
+
+.subhead {
+    font-size: 1.1em;
+}
+
+
+
