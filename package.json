@@ -1,0 +1,23 @@
+{
+  "name": "the-2019-front-end-developer-crash-course",
+  "version": "1.0.0",
+  "description": "The tutorial on how to create this beautiful page is found here:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Klanakin/the-2019-front-end-developer-crash-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Klanakin/the-2019-front-end-developer-crash-course/issues"
+  },
+  "homepage": "https://github.com/Klanakin/the-2019-front-end-developer-crash-course#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
